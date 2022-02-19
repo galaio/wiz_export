@@ -64,7 +64,7 @@ var (
 )
 
 // usage
-// ./fetch_notes_2_md --output '/Users/xx/' --userId 'xx' --password 'xx' --folders '/日记/,/工作/'
+// wiz_export --output '/Users/xx/' --userId 'xx' --password 'xx' --folders '/日记/,/工作/'
 func main() {
 	flag.Parse()
 	if *userId == "" || *password == "" || *folders == "" {
